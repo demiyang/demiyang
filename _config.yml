@@ -7,7 +7,7 @@ title: Demiyang
 subtitle:
 description:
 author: yangyang
-language:
+language: zh
 timezone:
 
 # URL
@@ -68,6 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:git
-  repo:https://github.com/demiyang/demiyang.github.io.git
-  branch:master
+  type: git
+  repo: https://github.com/demiyang/demiyang.github.io.git
+  branch: master
