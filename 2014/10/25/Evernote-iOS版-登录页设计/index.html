@@ -1,67 +1,113 @@
-<!doctype html>
-<html lang="ko">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    
-    <title>Evernote iOS版 登录页设计 | Demiyang</title>
-    
-    <link rel="alternative" href="/atom.xml" title="Demiyang" type="application/atom+xml">
-    
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
-    
-    <link rel="stylesheet" href="/libs/fancybox/jquery.fancybox.css" charset="utf-8">
-    
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body class="site">
-    <header class="site-header">
-        <h1 class="site-title"><a href="/">Demiyang</a></h1>
-        <nav class="site-nav">
-            <ul class="nav">
-                
-                <li><a href="/archives">Archives</a></li>
-                
-                
-                <li><a href="/atom.xml" title="RSS Feed">rss</a></li>
-                
-                <li><a class="toggle-search" href="#search">search</a></li>
-            </ul>
-        </nav>
-        <div class="site-search" id="search">
-            <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-        </div>
-        
-            <div class="site-header-background" style="background-image:url(http://reumia.github.io/hexo-theme-zzoman2015/images/background-zzoman2015.jpg)"></div>
-        
-    </header>
-    <div class="site-body">
-        <div class="global-width">
-    <article class="article" data-layout="post" data-slug="Evernote-iOS版-登录页设计">
-        <div class="article-content">
-            
-            
-            <header class="article-header">
-                <div class="article-meta">
-                    <a href="/2014/10/25/Evernote-iOS版-登录页设计/" class="article-date">
-  <time datetime="2014-10-25T04:18:00.000Z">2014-10-25</time>
-</a>
-                    
-                    
-                </div>
-                
-    <h1 class="article-title" itemprop="name">
-      <a href="/2014/10/25/Evernote-iOS版-登录页设计/">Evernote iOS版 登录页设计</a>
-    </h1>
+  <meta charset="utf-8">
+  
+  <title>Evernote iOS版 登录页设计 | Demiyang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="">
+  
 
-            </header>
-            
-            <div class="article-body">
-                <p>Evernote iOS版一度把登录和注册页设计成这样：</p>
+  <meta name="description" content="Evernote iOS版一度把登录和注册页设计成这样：
+一般这一页会有两个选项——1注册 2登录（当然Evernote 这个版本多了一个转到international版的选项，虽说肯定是有不得已的原因，但区分两个不能共用账号的版本把记忆和区分任务交给用户真不太好。）
+Evernote替用户省掉了选择，直接输入邮箱或者用户名。这是一个挺不错的设计，因为用户再也不用做选择，不管是否注册过，都可以直接">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Evernote iOS版 登录页设计">
+<meta property="og:url" content="http://yoursite.com/2014/10/25/Evernote-iOS版-登录页设计/index.html">
+<meta property="og:site_name" content="Demiyang">
+<meta property="og:description" content="Evernote iOS版一度把登录和注册页设计成这样：
+一般这一页会有两个选项——1注册 2登录（当然Evernote 这个版本多了一个转到international版的选项，虽说肯定是有不得已的原因，但区分两个不能共用账号的版本把记忆和区分任务交给用户真不太好。）
+Evernote替用户省掉了选择，直接输入邮箱或者用户名。这是一个挺不错的设计，因为用户再也不用做选择，不管是否注册过，都可以直接">
+<meta property="og:image" content="http://41.media.tumblr.com/71f9a9d4c603e52588fa295c1c907394/tumblr_inline_nloaurbmAS1rze6u9_500.png">
+<meta property="og:image" content="http://40.media.tumblr.com/40563b10d07ca44a791ced80e20ce7ba/tumblr_inline_nloav1o9qa1rze6u9_500.jpg">
+<meta property="og:image" content="http://41.media.tumblr.com/ee970d9e2eb3424b555005b667086999/tumblr_inline_nloavp7ZIP1rze6u9_500.png">
+<meta property="og:updated_time" content="2015-12-26T15:08:21.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Evernote iOS版 登录页设计">
+<meta name="twitter:description" content="Evernote iOS版一度把登录和注册页设计成这样：
+一般这一页会有两个选项——1注册 2登录（当然Evernote 这个版本多了一个转到international版的选项，虽说肯定是有不得已的原因，但区分两个不能共用账号的版本把记忆和区分任务交给用户真不太好。）
+Evernote替用户省掉了选择，直接输入邮箱或者用户名。这是一个挺不错的设计，因为用户再也不用做选择，不管是否注册过，都可以直接">
+  
+  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+  
+  
+
+
+  
+
+  
+    <link href='//fonts.useso.com/css?family=Titillium+Web:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div class="container">
+      <div class="container-inner">
+        <div id="header-title">
+          <h1 class="logo-wrap">
+            <a href="/" class="logo"></a>
+          </h1>
+          
+        </div>
+        <div id="header-inner" class="nav-container">
+          <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+          <div class="nav-container-inner">
+            <ul id="main-nav">
+              
+            </ul>
+            <nav id="sub-nav">
+              <div id="search-form-wrap">
+                
+                  <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+                
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="container">
+      <div class="main-body container-inner">
+        <div class="main-body-inner">
+          <section id="main">
+            <div class="main-body-header">
+
+              <h1 class="header">未分类</h1>
+            </div>
+            <div class="main-body-content">
+              
+  <article id="post-Evernote-iOS版-登录页设计" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+      <!--  -->
+      
+        <header class="article-header">
+          
+  
+    <h1 class="article-title" itemprop="name">
+      Evernote iOS版 登录页设计
+    </h1>
+  
+
+        </header>
+      
+      <p class="article-byline">
+        <a href="/2014/10/25/Evernote-iOS版-登录页设计/" class="article-date">
+  <time datetime="2014-10-25T04:18:00.000Z" itemprop="datePublished">2014-10-25</time>
+</a>
+      </p>
+      <div class="article-entry" itemprop="articleBody">
+        <p>Evernote iOS版一度把登录和注册页设计成这样：</p>
 <p>一般这一页会有两个选项——1注册 2登录（当然Evernote 这个版本多了一个转到international版的选项，虽说肯定是有不得已的原因，但区分两个不能共用账号的版本把记忆和区分任务交给用户真不太好。）</p>
 <p>Evernote替用户省掉了选择，直接输入邮箱或者用户名。这是一个挺不错的设计，因为用户再也不用做选择，不管是否注册过，都可以直接输入自己的邮箱或者用户名。然后点next，下一步。</p>
 <figure data-orig-width="500" data-orig-height="750"><img src="http://41.media.tumblr.com/71f9a9d4c603e52588fa295c1c907394/tumblr_inline_nloaurbmAS1rze6u9_500.png" alt="image"></figure>
@@ -79,98 +125,82 @@
 
 <p>很好奇为什么Evernote把登录改回来了。是因为前一种页面上“next”等文字按钮看齐来太不像按钮，给部分用户造成了困惑吗？但是由于有键盘上“Go”的配合，这应该不是问题。还是说他们觉得两次服务器请求没必要？嗯，也许是因为对于Evernote这样一个已经有着广泛用户基础的工具型应用，登录是大多数用户安装app之后的选择，所以设计成默认打开就可以登录了。如果是一个新推出的社交app，是需要更突出“注册”的。</p>
 
-            </div>
-        </div>
-    </article>
-
-    
-    
-<nav class="article-nav">
+      </div>
+      <footer class="article-footer">
+        <a data-url="http://yoursite.com/2014/10/25/Evernote-iOS版-登录页设计/" data-id="ciina1nih0014dy7pnfzciwv4" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+        
+        
+      </footer>
+    </div>
+  </article>
   
-    <a href="/2014/11/22/顺丰小哥/" id="article-nav-newer" class="article-nav-link-wrap prev">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
+  
+
+            </div>
+          </section>
+          <aside id="sidebar">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+  <div class="sidebar-top">
+    <p>关注我 :</p>
+    <ul class="social-links">
+      
+    </ul>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2014/11/22/顺丰小哥/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <p class="article-nav-title">
         
           顺丰小哥
         
-      </div>
+      </p>
+      <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
     </a>
   
   
 </nav>
 
+  
+  <div class="widgets-container">
     
-
-    
-</div>
+  </div>
+</aside>
+        </div>
+      </div>
     </div>
-    <footer class="site-footer">
-        <div class="global-width">
-            <ul class="site-widget">
-                
-                <li class="widget widget-tag">
-                    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget-body">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/HCI/">HCI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/apple-watch/">apple watch</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/coursera/">coursera</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/剧/">剧</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/珠宝/">珠宝</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/生活/">生活</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/生活中的好设计/">生活中的好设计</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/设计理论/">设计理论</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/设计调研/">设计调研</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读书/">读书</a><span class="tag-list-count">2</span></li></ul>
+    <footer id="footer">
+  
+  <div class="container">
+    <div class="container-inner">
+      <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+      <div class="credit">
+        <h1 class="logo-wrap">
+          <a href="/" class="logo"></a>
+        </h1>
+        <p>&copy; 2015 yangyang</p>
+        <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+      </div>
     </div>
   </div>
+</footer>
+    
 
-                </li>
-                
-                <li class="widget widget-category">
-                    
-                </li>
-                
-                <li class="widget widget-recent_posts">
-                    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recents</h3>
-    <div class="widget-body">
-      <ul>
-        
-          <li>
-            <a href="/2015/11/16/关于自己之前设计流程的反思/">关于自己之前设计流程的反思</a>
-          </li>
-        
-          <li>
-            <a href="/2015/11/14/人性/">人性</a>
-          </li>
-        
-          <li>
-            <a href="/2015/11/01/周记-1101/">周记 1101</a>
-          </li>
-        
-          <li>
-            <a href="/2015/10/28/《金字塔原理》读书分享应领导要求做的读书分享，金字塔原理是个很好用的工具。作为设计师，对待自己所有的输出都要换位思考，对方能否看懂/">《金字塔原理》读书分享应领导要求做的读书分享，金字塔原理是个很好用的工具。作为设计师，对待自己所有的输出都要换位思考，对方能否看懂...</a>
-          </li>
-        
-          <li>
-            <a href="/2015/10/26/小红书的包装细节很有爱，比如“三分天注定，七分靠shopping”简直说出了每一个买买买er的心声！快递标签是双面胶一样可揭开的/">小红书的包装细节很有爱，比如“三分天注定，七分靠shopping”简直说出了每一个买买买er的心声！ 快递标签是双面胶一样可揭开的...</a>
-          </li>
-        
-      </ul>
-    </div>
+
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+
+
+
+
+
+
+
+<script src="/js/html-patch.js" type="text/javascript"></script>
+<script src="/js/script.js" type="text/javascript"></script>
+
   </div>
-
-                </li>
-                
-            </ul>
-        </div>
-        <div class="site-info">
-            <address>
-                &copy; 2014 <a href="http://yoursite.com">Demiyang</a> All Right Reserved. <br/>
-                Powered by <a href="http://hexo.io">Hexo</a>. Theme by <a href="http://zzoman.com">ZZOMAN</a>
-            </address>
-        </div>
-    </footer>
-    
-    <script src="/libs/jquery-1.11.3.min.js" type="text/javascript"></script>
-    
-    <script src="/libs/fancybox/jquery.fancybox.js" type="text/javascript"></script>
-    
-    <script src="/js/site_init.js" type="text/javascript"></script>
-    
 </body>
 </html>
